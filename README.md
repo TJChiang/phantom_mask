@@ -1,6 +1,6 @@
 # Phantom Mask
 
-A Laravel-based backend system developed for a pharmacy platform, featuring API endpoints and a relational database to manage pharmacies, users, and mask transactions.
+A laravel-based backend system developed for a pharmacy platform, featuring API endpoints and a relational database to manage pharmacies, users, and mask transactions.
 
 This project is designed for technical assessment purposes.
 

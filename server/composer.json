@@ -1,11 +1,11 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "tjchiang/phantom_mask",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A laravel-based backend system for technical assessment purposes.",
     "keywords": [
         "laravel",
-        "framework"
+        "phantom_mask"
     ],
     "license": "MIT",
     "require": {
