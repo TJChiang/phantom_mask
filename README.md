@@ -1,5 +1,8 @@
 # Phantom Mask
-You are tasked with building a backend service and a database for a pharmacy platform using the following two raw datasets:
+
+A Laravel-based backend system developed for a pharmacy platform, featuring API endpoints and a relational database to manage pharmacies, users, and mask transactions.
+
+This project is designed for technical assessment purposes.
 
 ## A. Raw Data
 ### A.1. Pharmacy Data
