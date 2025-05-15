@@ -32,4 +32,9 @@ class Pharmacy extends Model
     {
         return $this->hasMany(Mask::class, 'pharmacy_id', 'id');
     }
+
+    public function transactions(): HasMany
+    {
+        return $this->hasMany(Transaction::class, 'pharmacy_id', 'id');
+    }
 }
