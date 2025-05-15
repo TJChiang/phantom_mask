@@ -23,6 +23,11 @@ class Pharmacy extends Model
         'updated_at' => 'datetime:' . DateTimeInterface::ATOM,
     ];
 
+    public function openings(): HasMany
+    {
+        return $this->hasMany(PharmacyOpening::class, 'pharmacy_id', 'id');
+    }
+
     public function masks(): HasMany
     {
         return $this->hasMany(Mask::class, 'pharmacy_id', 'id');
