@@ -1,6 +1,6 @@
 <?php
 
-use Carbon\WeekDay;
+use App\Enums\Weekday;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -12,7 +12,7 @@ return new class extends Migration
         Schema::create('pharmacy_openings', function (Blueprint $table) {
             $table->id()->primary();
             $table->unsignedBigInteger('pharmacy_id');
-            $table->enum('weekday', WeekDay::cases());
+            $table->enum('weekday', array_column(Weekday::cases(), 'name'));
             $table->time('opening_time');
             $table->time('closing_time');
             $table->timestamps();
