@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Enums;
+
 /**
  * @see \Carbon\CarbonInterface
  * @see \Carbon\WeekDay
